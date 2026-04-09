@@ -1,0 +1,20 @@
+// src/assets/scss/style.scss
+// base
+@import 'base/fonts';
+@import 'base/variables';
+@import 'base/mixins';
+
+// global
+
+@import 'global/normalize';
+@import 'global/container';
+@import 'global/visually-hidden';
+@import 'global/no-scroll';
+@import 'global/global';
+
+// components
+
+@import 'components/btn';
+@import 'components/header';
+
+

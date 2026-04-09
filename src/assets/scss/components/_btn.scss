@@ -1,0 +1,7 @@
+// src/assets/scss/components/_btn.scss
+
+.btn{
+    @include no-btn;
+    font-weight: 700;
+    text-transform: uppercase;
+}
