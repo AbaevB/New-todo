@@ -1,19 +1,28 @@
-# new todo
+# New todo
 
-This template should help get you started developing with Vue 3 in Vite.
+> Цель проекта - самостоятельное создание приложения TODO-List, и закрепление навыков работы с базовой сборкой **Vue**
 
-## Recommended IDE Setup
+## Создание компонента `Btn.vue`
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Компонент `src/components/Btn.vue` - переиспользуемая кнопка, которой можно задавать класс, тип, и обработчик события по клику. Пример использования :
 
-## Recommended Browser Setup
+```vue
+<script setup>
+import Btn from './Btn.vue';
+function changeTheme(){
+    console.log('Change Theme');
+}
+</script>
+<template>
+  <Btn
+    content = 'Сменить тему'
+    btn-class="header__btn"
+    btn-type="button"
+    @click="changeTheme"
+  />
+</template>
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+```
 
 ## Customize configuration
 
