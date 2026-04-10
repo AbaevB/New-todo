@@ -1,0 +1,15 @@
+// src/assets/scss/components/_footer.scss
+.footer {
+    padding: 20px 0;
+    border-top: 1px solid var(--color-border);
+    background-color: var(--color-primary);
+    color: #f0f8ff;
+    &__inner    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__copy {
+        font-size: 10px;
+    }
+}

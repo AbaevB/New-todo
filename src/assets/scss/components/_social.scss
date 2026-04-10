@@ -1,0 +1,6 @@
+// src/assets/scss/components/_social.scss
+.social {
+    @include listReset;
+    display: flex;
+    gap: 20px;
+}
