@@ -11,6 +11,9 @@
      },
      btnType: {
         type:String,
+     },
+     btnAriaLabel:{
+        type: String,
      }
  })
 
@@ -23,6 +26,7 @@ defineEmits(['click'])
     class="btn"
     :class="btnClass"
     :type="btnType"
+    :aria-label="btnAriaLabel"
     @click="$emit('click')"
     >
        {{ content }} 

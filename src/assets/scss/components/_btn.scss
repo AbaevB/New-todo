@@ -2,6 +2,7 @@
 
 .btn{
     @include no-btn;
+    font-family: "Montserrat", sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
     font-weight: 700;
     text-transform: uppercase;
 }

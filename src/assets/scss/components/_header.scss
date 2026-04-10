@@ -1,8 +1,8 @@
 // src/assets/scss/components/_header.scss
 .header {
     padding: 30px 0;
-    border-bottom: 1px solid $color-border;
-    background-color: $color-primary;
+    border-bottom: 1px solid var(--color-border);
+    background-color: var(--color-primary);
 
     &__content  {
         display: flex;
@@ -12,6 +12,7 @@
 
     &__title    {
         margin: 0;
+        color: #f0f8ff;
         margin-right: auto;
         font-size: 2.5rem;
         font-weight: 200;
@@ -19,18 +20,20 @@
     }
 
     &__btn {
-        padding: 10px 20px;
+        padding:  10px 20px;
+        font-size: 2rem;
         font-weight: 300;
-        color: $color-text;
-        border: 1px solid $color-text;
-        background-color: $color-primary;
+        color: #f0f8ff;
+        border: 1px solid #f0f8ff;
+        border-radius: 5px;
+        background-color: var(--color-primary);
         
         &:hover {
-            background-color: $color-secondary;
+            background-color: var(--color-secondary);
         }
 
         &:focus-visible {
-            background-color: $color-secondary;
+            background-color: var(--color-secondary);
         }
     }
 
