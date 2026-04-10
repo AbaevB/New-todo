@@ -1,6 +1,6 @@
 // src/assets/scss/base/_variables.scss
 
-// Breakpoints
+// === Breakpoints ===
 $vp-xs: 375px;
 $vp-sm: 576px;
 $vp-md: 768px;
@@ -8,22 +8,23 @@ $vp-lg: 992px;
 $vp-xl: 1200px;
 $vp-xxl: 1400px;
 
-// ===basic colors ===
+// === Цвета для тем ===
+:root {
+  // Тёмная тема (по умолчанию)
+  --color-bg: #2f4454;
+  --color-text: #f0f8ff;
+  --color-primary: #2e151b;
+  --color-secondary: #da7b93;
+  --color-accent: #376e6f;
+  --color-border: #ccc;
+}
 
-$color-white: #fff;
-$color-black: #000;
-
-$color-bg: #2f4454;
-$color-text: #f0f8ff;
-
-// Primary colors
-$color-primary: #2e151b;
-$color-secondary: #da7b93;
-
-// Accent colors
-$color-accent: #376e6f;
-$color-accent-secondary: #1c3334;
-
-// Border colors
-$color-border: #ccc;
-
+[data-theme="light"] {
+  // Светлая тема
+  --color-bg: #f8f9fa;
+  --color-text: #212529;
+  --color-primary: #495057;
+  --color-secondary: #1c3334;
+  --color-accent: #20c997;
+  --color-border: #dee2e6;
+}

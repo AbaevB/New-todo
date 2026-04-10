@@ -22,10 +22,12 @@ a {
   outline: none;
 }
 
-body    {
-    background-color: $color-bg;
-    color: $color-text;
-    font-family: "Montserrat", sans-serif;
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  transition: background-color 0.3s ease; // плавность при смене темы
 }
 
 
