@@ -1,0 +1,22 @@
+// src/assets/scss/components/_social.scss
+.social {
+  @include listReset;
+  display: flex;
+  gap: 20px;
+
+  &__link {
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    display: inline-block;
+
+    &:hover,
+    &:focus {
+      transform: scale(1.2);
+      opacity: 0.9;
+    }
+
+    &:focus {
+      outline: 2px solid var(--color-accent);
+      border-radius: 50%;
+    }
+  }
+}

@@ -30,5 +30,15 @@ body {
   transition: background-color 0.3s ease; // плавность при смене темы
 }
 
+#app{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main {
+  flex-grow: 1;
+}
+
 
 
