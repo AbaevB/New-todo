@@ -1,5 +1,4 @@
 <!-- src/components/icons/IconVK.vue -->
-<!-- src/components/icons/IconVK.vue -->
 <script setup>
 defineProps({
   size: { type: String, default: '24px' },
