@@ -14,6 +14,7 @@ defineProps({
     viewBox="0 0 24 24"
     role="img"
     aria-label="Логотип LinkedIn"
+    aria-hidden="true"
   >
     <path
       :fill="color"

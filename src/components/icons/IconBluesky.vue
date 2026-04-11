@@ -14,6 +14,7 @@ defineProps({
     viewBox="0 0 24 24"
     role="img"
     aria-label="Логотип Bluesky — бабочка"
+    aria-hidden="true"
   >
     <!-- Добавили :fill="color", убрали жёсткий fill -->
     <path
