@@ -2,7 +2,7 @@
 <script setup>
 import { ref } from 'vue';
 import Btn from './Btn.vue';
-const btnContent = 'Add';
+const btnContent = '+';
 
 const inputValue = ref('');
 const emit = defineEmits('submit');
